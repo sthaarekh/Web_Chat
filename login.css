@@ -1,0 +1,85 @@
+.formlogin{
+    padding: 25px 30px;
+}
+.formlogin header{
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.formlogin form{
+    margin: 20px 0;
+}
+
+.formlogin form .error-txt{
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
+
+.formlogin form .field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.formlogin form .field label{
+    margin-bottom: 2px;
+}
+.formlogin form .field input{
+    outline: none;
+}
+.formlogin form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.formlogin form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;  
+    cursor: pointer;  
+}
+
+.formlogin form .field i{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top:70%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    }
+
+.formlogin form .field i.active::before{
+    color: #333;
+    content: "\f070";
+   }
+
+.formlogin .link{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.formlogin .link a{
+    color: #333;
+}
+.form .link a:hover{
+    text-decoration: underline;
+}

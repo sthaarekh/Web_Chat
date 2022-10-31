@@ -1,0 +1,105 @@
+.formsup{
+    padding: 25px 30px;
+}
+.formsup header{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.formsup .iqe{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+
+}
+.formsup form{
+    margin: 20px 0;
+}
+
+form .error-txt{
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    display: none;
+}
+
+form .name-details{
+    display: flex;
+}
+
+form .name-details .field:first-child{
+    margin-right: 10px;
+}
+
+form .name-details .field:last-child{
+    margin-left: 10px;
+}
+
+.formsup form .field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.formsup form .field label{
+    margin-bottom: 2px;
+}
+.formsup form .field input{
+    outline: none;
+}
+.formsup form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.formsup form .imgage input{
+    font-size: 17px;    
+}
+
+.formsup form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;  
+    cursor: pointer;  
+}
+
+.formsup form .field i{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top:70%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.formsup form .field i.active::before{
+    color: #333;
+    content: "\f070";
+}
+
+.formsup .link{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.formsup .link a{
+    color: #333;
+}
+.form .link a:hover{
+    text-decoration: underline;
+}
